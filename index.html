@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos básicos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cristian Andrés De La Rue Garcia</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Contenedor principal del CV -->
+    <div class="cv-container">
+      <!-- Columna izquierda: Información de contacto, habilidades y proyectos -->
+      <div class="columna-izquierda">
+        <!-- Sección de contacto -->
+        <h2>Contacto</h2>
+        <p>📧 <a class="correo" href="mailto:andresdelarueg@gmail.com">Correo</a></p>
+        <p>💻 <a href="https://github.com/ANDRESDLRG2007" target="_blank">GitHub</a></p>
+        <p>🔗 <a href="https://co.linkedin.com/in/cristian-andres-de-la-rue-garcia-050638350" target="_blank">LinkedIn</a></p>
+        <p>📸 <a href="https://www.instagram.com/andres_8dlrg/?hl=es" target="_blank">Instagram</a></p>
+
+        <!-- Sección de habilidades -->
+        <h2>Habilidades</h2>
+        <ul>
+          <li>Manejo de lenguajes de programacion como Java, C++, HTML, Python</li><br>
+          <li>Conocimiento de photoshop</li><br>
+          <li>Comunicación asertiva oral y escrita</li><br>
+          <li>Organización y planificación</li><br>
+          <li>Trabajo en equipo</li><br>
+          <li>Gestión del tiempo</li>
+        </ul>
+
+        <!-- Sección de proyectos -->
+        <h2>Proyectos</h2>
+        <ul>
+          <li>📝 <a href="https://introduccionaldesarrollodesoftwarecyp.blogspot.com/" target="_blank">Blog de desarrollo de software</a></li>
+          <li>🌐 <a href="https://andresdlrg2007.github.io/TALLER-MENU-DE-NAVEGACION-PERSONAL/" target="_blank">Taller menú de navegación personal</a></li>
+          <li>💻 <a href="https://andresdlrg2007.github.io/pagina-con-javascript/" target="_blank">Página web "Números pares e impares"</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna derecha: Información personal, educación, cursos y experiencia -->
+      <div class="columna-derecha">
+        <!-- Título principal -->
+        <h1>Cristian Andrés De La Rue Garcia</h1>
+        <h3>Estudiante de Tecnologia en desarrollo de software</h3>
+
+        <!-- Sección "Sobre mí" -->
+        <h2 onclick="toggleSeccion('sobre-mi')">Sobre mí</h2>
+        <div id="sobre-mi">
+          <p>
+            Estudiante de Tecnologia en desarrollo de software con interés en las áreas de
+            programación, matemáticas y desarrollo de software. Comprometido con
+            el aprendizaje continuo y la solución de problemas tecnológicos.
+          </p>
+        </div>
+
+        <!-- Sección de educación -->
+        <h2 onclick="toggleSeccion('educacion')">Educación</h2>
+        <div id="educacion">
+          <ul>
+            <li>
+              <strong>Universidad Uniagustiniana</strong><br />Tecnologia en desarrollo de software<br />(2024 – Actualidad)
+            </li><br>
+            <li>
+              <strong>Colegio Instituto la anuncion </strong><br />Bachiller
+              Académico<br /> (2018 – 2023)
+            </li>
+          </ul>
+        </div>
+
+        <!-- Sección de cursos adicionales -->
+        <h2 onclick="toggleSeccion('cursos')">Cursos adicionales</h2>
+        <div id="cursos">
+          <ul>
+            <li><b>Curso de Inglés Básico </b>– SENA – 2023 - Complementaria Virtual En English Does Work - Level 5 </li><br>
+            <li><b>Manejo de Photoshop</b> - SENA - 2021 -Tecnologias De La Informacion Y Las Comunicaciones Gestion De La Informacion: Manejo De Adobe Photoshop </li> <br>
+            <li><b>Curso de C++ </b>– SENA – 2021 - Complementaria Virtual En Conceptualizacion Del Lenguaje De Programacion C++ </li> <br>
+          </ul>
+        </div>
+
+        <!-- Sección de experiencia laboral -->
+        <h2 onclick="toggleSeccion('experiencia')">Experiencia laboral</h2>
+        <div id="experiencia">
+          <p><strong>Diseñador de Estampados</strong> – ADL+C estampados</p>
+          <p>
+            Funciones: Diseño creativo de estampados para prendas; manejo de
+            herramientas gráficas tanto como photoshop como illustrator; cumplimiento de entregas.<br />(2022 –
+            2024)
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botón de contacto -->
+    <div class="boton-container">
+      <a class="boton-contacto" href="mailto:andresdelarueg@gmail.com?subject=Contactar%20por%20hoja%20de%20vida&body=Hola%20Andrés,%0A%0AMe%20gustaría%20compartir%20mi%20hoja%20de%20vida%20contigo.%0A%0AQuedo%20atento%20a%20tu%20respuesta." target="_blank">
+        CONTACTAME
+      </a>
+    </div>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
